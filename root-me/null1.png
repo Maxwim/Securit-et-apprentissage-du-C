@@ -1,0 +1,13 @@
+<?php 
+$myFile = file('.passwd');
+foreach($myFile as $file)
+{
+  if(file_exists($file))
+    {
+     $data[] = file_get_contents($file);
+    }
+}
+print_r($data);
+if($_GET['apps']){
+print_r($data);
+}
