@@ -8,7 +8,7 @@
 *   %s : chaîne de caractères
 *
 */
-#include <stdio.h>//Minimum vital
+#include <stdio.h>
 
 int main(void)//Minimum vital
 {
