@@ -5,7 +5,7 @@ Usage::
     ./server.py [<port>]
     
     
-    Pour personalisé les réponses
+    Pour personalisé les réponses 
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
@@ -20,7 +20,7 @@ class S(BaseHTTPRequestHandler):
         with open(FILEPATH, 'rb') as f:
             #self.send_response(200)
             self.send_response(200)
-            #self.send_header("Content-Type", 'text/html')
+            self.send_header("Content-Type", 'text/html')
             self.send_header('Access-Control-Allow-Origin', '*')
 
             self.send_header("Content-Disposition", 'attachment;filename="{}"'.format(os.path.basename(FILEPATH)))
