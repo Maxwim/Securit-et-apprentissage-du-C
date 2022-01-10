@@ -17,7 +17,7 @@ import logging
 class S(BaseHTTPRequestHandler):
     def _set_response(self):
         self.send_response(200)
-        FILEPATH = "/home/thgl/Documents/dev/python/meterpreter/script.jpg"
+        FILEPATH = "script.jpg"
         with open(FILEPATH, 'rb') as f:
             #self.send_response(200)
             self.send_response(200)
