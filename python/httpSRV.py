@@ -3,6 +3,9 @@
 Very simple HTTP server in python for logging requests
 Usage::
     ./server.py [<port>]
+    
+    
+    Pour personalisé les réponses
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
