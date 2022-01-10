@@ -6,6 +6,7 @@ Usage::
     
     
     Pour personalisé les réponses 
+    Peu éxécuter du code JS
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
