@@ -2,6 +2,5 @@
 Pour progresser en sécurité information, je doit je penses apprendre le langage C pour mieux comprendre les stack buffer overflow, ce répertoire vas stocker aussi mon apprentissage en sécurité
 ## https://root-me.org/theglitch-354972?inc=ctf&lang=fr
 
-# Le C
-J'apprends le C pour apprendre un language "bas niveau", pour le moment j'en suis qu'au début.
+# Il y a de tout
 
